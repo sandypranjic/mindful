@@ -1,0 +1,43 @@
+// Fonts
+
+// Serif font used in logo
+
+@mixin serif {
+    font-family: miller-display, serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+// Sans-serif font (main font)
+
+@mixin sans {
+    font-family: forma-djr-micro, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+@mixin italicSerif {
+    font-family: miller-display, serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+@mixin sansMedium {
+    font-family: forma-djr-micro, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@mixin sansLight {
+    font-family: forma-djr-micro, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+// Colours
+$black: #232323;
+$white: #ffffff;
+$dark: #8a00ed;
+$accent1: #d0b8ff;
+$accent2: #8995ef;
+$accent3: #6eba98;

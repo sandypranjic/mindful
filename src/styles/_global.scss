@@ -1,0 +1,34 @@
+body, div, section, img, h1, h2, h3, h4, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: $black;
+    @include sans;
+    font-size: 62.5%;
+}
+
+a, .link {
+    text-decoration: none;
+    color: $black;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.accent {
+    color: $accent2;
+    font-size: 5.5rem;
+}
+
+h2 {
+    @include serif;
+    font-size: 2rem;
+}
